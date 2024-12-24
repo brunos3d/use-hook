@@ -1,10 +1,10 @@
-# use-hook
+# use-silly-hooks
 
 A collection of custom React hooks to simplify state management in your applications. 🚀
 
 ## Table of Contents
 
-- [use-hook](#use-hook)
+- [use-silly-hooks](#use-silly-hooks)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [npm](#npm)
@@ -26,24 +26,24 @@ A collection of custom React hooks to simplify state management in your applicat
 
 ## Installation
 
-You can install `use-hook` using your favorite package manager:
+You can install `use-silly-hooks` using your favorite package manager:
 
 ### npm
 
 ```sh
-npm install use-hook
+npm install use-silly-hooks
 ```
 
 ### yarn
 
 ```sh
-yarn add use-hook
+yarn add use-silly-hooks
 ```
 
 ### pnpm
 
 ```sh
-pnpm add use-hook
+pnpm add use-silly-hooks
 ```
 
 ## Getting Started
@@ -52,7 +52,7 @@ To start using the hooks, simply import them into your React component:
 
 ```tsx
 import React from 'react';
-import { useBoolean, useString, useNumber, useArray, useObject } from 'use-hook';
+import { useBoolean, useString, useNumber, useArray, useObject } from 'use-silly-hooks';
 
 const App = () => {
   const [isVisible, setIsVisible, setTrue, setFalse, toggle, resetBoolean] = useBoolean(false);
@@ -153,7 +153,7 @@ const [value, setValue, setProperty, clear, reset, merge] = useObject(initialVal
 
 ```tsx
 import React from 'react';
-import { useBoolean } from 'use-hook';
+import { useBoolean } from 'use-silly-hooks';
 
 const BooleanExample = () => {
   const [isVisible, setIsVisible, setTrue, setFalse, toggle, reset] = useBoolean(false);
@@ -176,7 +176,7 @@ export default BooleanExample;
 
 ```tsx
 import React from 'react';
-import { useString } from 'use-hook';
+import { useString } from 'use-silly-hooks';
 
 const StringExample = () => {
   const [name, setName, transform, reset] = useString('John Doe');
@@ -199,7 +199,7 @@ export default StringExample;
 
 ```tsx
 import React from 'react';
-import { useNumber } from 'use-hook';
+import { useNumber } from 'use-silly-hooks';
 
 const NumberExample = () => {
   const [count, setCount, increment, decrement, multiply, divide, reset, setMin, setMax] = useNumber(0);
@@ -225,7 +225,7 @@ export default NumberExample;
 
 ```tsx
 import React from 'react';
-import { useArray } from 'use-hook';
+import { useArray } from 'use-silly-hooks';
 
 const ArrayExample = () => {
   const [items, setItems, push, pop, shift, unshift, clear, reset] = useArray<number>([1, 2, 3]);
@@ -250,7 +250,7 @@ export default ArrayExample;
 
 ```tsx
 import React from 'react';
-import { useObject } from 'use-hook';
+import { useObject } from 'use-silly-hooks';
 
 const ObjectExample = () => {
   const [user, setUser, setProperty, clear, reset, merge] = useObject({ name: 'John', age: 30 });
@@ -269,6 +269,6 @@ const ObjectExample = () => {
 export default ObjectExample;
 ```
 
-Enjoy using `use-hook`! 🎉
+Enjoy using `use-silly-hooks`! 🎉
 
 Made with ❤️ by [Bruno Silva](https://github.com/brunos3d).
