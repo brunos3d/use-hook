@@ -6,6 +6,19 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "react",
+    "hooks",
+    "state",
+    "management",
+    "use-silly-hooks",
+    "use-string",
+    "use-number",
+    "use-boolean",
+    "use-array",
+    "use-object"
+  ],
+  "repository": "https://github.com/brunos3d/use-silly-hooks",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
