@@ -1,6 +1,6 @@
 {
   "name": "use-silly-hooks",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A collection of custom React hooks to simplify state management in your applications. 🚀",
   "type": "module",
   "files": [
